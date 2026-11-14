@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">掌上五子棋</string>
+    <string name="splash_tagline">方形手表 · 本地对弈</string>
+    <string name="splash_by_him">本应用由 HIM 打造</string>
+    <string name="splash_no_redistribute">禁止二次分发，尤其是 piggod！</string>
+    <string name="splash_preparing">正在准备棋局</string>
+    <string name="splash_init_failed">初始化失败</string>
+    <string name="btn_retry">重试</string>
+    <string name="home_more">更多</string>
+    <string name="home_saved_fmt">上次棋局 %1$d 手，可继续</string>
+    <string name="home_footer">本地对弈 · 无需联网 · 数据仅存本机</string>
+
+    <!-- 配色主题（十套） -->
+    <string name="theme_forest">森林绿</string>
+    <string name="theme_ocean">海洋蓝</string>
+    <string name="theme_starlight">星空紫</string>
+    <string name="theme_sunset">日落橙</string>
+    <string name="theme_rose">玫瑰粉</string>
+    <string name="theme_celadon">青瓷青</string>
+    <string name="theme_amber">琥珀金</string>
+    <string name="theme_cherry">樱桃红</string>
+    <string name="theme_graphite">石墨灰</string>
+    <string name="theme_midnight">午夜蓝</string>
+
+    <!-- 加载页品牌标识与关于页声明 -->
+    <string name="splash_brand">HIM 开发-免费开源</string>
+    <string name="about_dev">开发者：HIM · 免费开源 · 禁止二次分发</string>
+
+    <!-- 设置分类 -->
+    <string name="cat_appearance">外观与主题</string>
+    <string name="cat_graphics">图形与动画</string>
+    <string name="cat_game">对局设置</string>
+    <string name="cat_sound">声音与触感</string>
+    <string name="cat_data">数据与存档</string>
+    <string name="cat_about">关于应用</string>
+
+    <!-- 图形设置 -->
+    <string name="preset_delicate">精致</string>
+    <string name="preset_balanced">均衡</string>
+    <string name="preset_minimal">简约</string>
+    <string name="preset_custom">自定义</string>
+    <string name="gfx_blur">背景模糊</string>
+    <string name="gfx_glow">背景柔光</string>
+    <string name="gfx_opacity">按钮通透程度</string>
+    <string name="gfx_bg_anim">装饰性背景动画</string>
+    <string name="gfx_transition">页面转场</string>
+    <string name="gfx_feedback">按钮反馈动画</string>
+    <string name="gfx_advance">调整细节</string>
+    <string name="gfx_reset">恢复本分类默认</string>
+    <string name="level_off">关闭</string>
+    <string name="level_low">低</string>
+    <string name="level_mid">中</string>
+    <string name="level_high">高</string>
+    <string name="transition_full">完整</string>
+    <string name="transition_soft">轻柔</string>
+    <string name="transition_off">关闭</string>
+    <string name="advanced_settings">高级设置</string>
+    <string name="data_clear_save">清除当前存档</string>
+    <string name="data_clear_save_confirm">清除后“继续游戏”将不可用，确定清除？</string>
+    <string name="toast_save_cleared">当前存档已清除</string>
+    <string name="settings_title_fmt">设置 · %1$s</string>
+
+    <!-- 首页 -->
+    <string name="home_solo">单人对弈</string>
+    <string name="home_multi">多人对弈</string>
+    <string name="home_continue">继续游戏</string>
+    <string name="home_settings">设置</string>
+    <string name="home_history">棋谱记录</string>
+    <string name="home_about">关于</string>
+    <string name="cd_home_solo">开始与本地人工智能进行单人对弈</string>
+    <string name="cd_home_multi">开始同屏多人轮流对弈</string>
+    <string name="cd_home_continue">继续上一次未结束的棋局</string>
+
+    <!-- 模式与难度 -->
+    <string name="mode_title">选择模式</string>
+    <string name="mode_solo">单人对弈</string>
+    <string name="mode_solo_desc">与本地 AI 对弈</string>
+    <string name="mode_multi">多人对弈</string>
+    <string name="mode_multi_desc">同屏轮流落子</string>
+    <string name="mode_practice">练习模式</string>
+    <string name="mode_practice_desc">无胜负自由摆棋</string>
+    <string name="difficulty_title">选择难度</string>
+    <string name="difficulty_beginner">入门</string>
+    <string name="difficulty_easy">简单</string>
+    <string name="difficulty_normal">普通</string>
+    <string name="difficulty_hard">困难</string>
+    <string name="difficulty_expert">专家</string>
+    <string name="difficulty_custom">自定义</string>
+    <string name="first_move_title">先后手</string>
+    <string name="first_player_black">玩家执黑（先手）</string>
+    <string name="first_player_white">玩家执白（后手）</string>
+    <string name="first_random">随机决定</string>
+    <string name="btn_start_game">开始对局</string>
+
+    <!-- 对局页 -->
+    <string name="status_black_fmt">黑方：%1$s</string>
+    <string name="status_white_fmt">白方：%1$s</string>
+    <string name="status_turn_fmt">当前：%1$s</string>
+    <string name="player_human">玩家</string>
+    <string name="player_ai">AI</string>
+    <string name="side_black">黑方</string>
+    <string name="side_white">白方</string>
+    <string name="ai_thinking">AI 思考中…</string>
+    <string name="btn_undo">悔棋</string>
+    <string name="btn_restart">重开</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_resume">继续</string>
+    <string name="btn_more">更多</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_out">缩小</string>
+    <string name="zoom_fit">适应屏幕</string>
+    <string name="zoom_center">居中</string>
+    <string name="btn_clear_board">清空棋盘</string>
+    <string name="btn_hint">建议落点</string>
+    <string name="menu_toggle_sound">音效开关</string>
+    <string name="menu_toggle_vibration">震动开关</string>
+    <string name="menu_exit_game">保存并退出</string>
+
+    <!-- 开关状态 -->
+    <string name="on">开</string>
+    <string name="off">关</string>
+
+    <!-- 提示 -->
+    <string name="msg_cell_occupied">这里已有棋子</string>
+    <string name="msg_wait_ai">请等待 AI</string>
+    <string name="msg_game_over">棋局已结束</string>
+    <string name="msg_undo_disabled">悔棋已关闭</string>
+    <string name="msg_undo_exhausted">悔棋次数已用完</string>
+    <string name="msg_new_game">已开始新对局</string>
+    <string name="msg_restore_failed">存档恢复失败</string>
+    <string name="msg_paused">已暂停</string>
+    <string name="msg_hint_shown">已显示建议落点</string>
+
+    <!-- 结束与暂停 -->
+    <string name="result_title">对局结束</string>
+    <string name="result_black_win">黑方获胜</string>
+    <string name="result_white_win">白方获胜</string>
+    <string name="result_draw">和棋</string>
+    <string name="btn_again">再来一局</string>
+    <string name="btn_home">返回首页</string>
+    <string name="btn_view_history">查看棋谱</string>
+    <string name="pause_title">已暂停</string>
+    <string name="pause_resume">继续对局</string>
+    <string name="exit_title">退出对局？</string>
+    <string name="exit_confirm_msg">退出将自动保存当前棋局</string>
+    <string name="exit_save">保存并退出</string>
+    <string name="exit_cancel">继续对局</string>
+    <string name="new_game_title">重新开始？</string>
+    <string name="new_game_confirm_msg">当前棋局将被清空并重新开始</string>
+    <string name="confirm_ok">确定</string>
+    <string name="confirm_cancel">取消</string>
+    <string name="turn_overlay_fmt">请交给%1$s</string>
+    <string name="turn_overlay_tap">轻触屏幕继续</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_board_size">棋盘大小</string>
+    <string name="settings_default_difficulty">默认难度</string>
+    <string name="settings_first_move">默认先后手</string>
+    <string name="settings_allow_undo">允许悔棋</string>
+    <string name="settings_undo_quota">悔棋次数</string>
+    <string name="quota_unlimited">不限</string>
+    <string name="quota_one">1 次</string>
+    <string name="quota_three">3 次</string>
+    <string name="quota_off">关闭</string>
+    <string name="settings_show_numbers">显示落子序号</string>
+    <string name="settings_show_last">显示最后一步</string>
+    <string name="settings_vibration">震动反馈</string>
+    <string name="settings_sound">音效</string>
+    <string name="settings_theme_mode">深浅模式</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="settings_board_theme">棋盘主题</string>
+    <string name="board_wood">木纹</string>
+    <string name="board_dark">深色</string>
+    <string name="board_contrast">高对比</string>
+    <string name="settings_stone_size">棋子大小</string>
+    <string name="stone_small">小</string>
+    <string name="stone_medium">中</string>
+    <string name="stone_large">大</string>
+    <string name="settings_high_contrast">高对比模式</string>
+    <string name="settings_ai_time">AI 最大思考时间</string>
+    <string name="seconds_fmt">%1$d 秒</string>
+    <string name="settings_custom_depth">自定义·搜索深度</string>
+    <string name="depth_fmt">%1$d 层</string>
+    <string name="settings_custom_random">自定义·随机性</string>
+    <string name="settings_show_thinking">显示 AI 思考状态</string>
+    <string name="settings_show_hint">显示建议落点</string>
+    <string name="settings_hide_board">多人模式遮挡棋盘</string>
+    <string name="settings_show_coords">显示坐标</string>
+    <string name="settings_autosave">自动保存</string>
+    <string name="settings_clear_history">清除棋谱</string>
+    <string name="settings_clear_confirm">确定清除全部棋谱记录？</string>
+    <string name="settings_reset">恢复默认设置</string>
+    <string name="toast_history_cleared">棋谱已清除</string>
+    <string name="toast_settings_reset">已恢复默认设置</string>
+
+    <!-- 棋谱 -->
+    <string name="history_title">棋谱记录</string>
+    <string name="history_empty">暂无棋谱</string>
+    <string name="history_clear">清除</string>
+    <string name="history_result_black">黑胜</string>
+    <string name="history_result_white">白胜</string>
+    <string name="history_result_draw">和棋</string>
+    <string name="history_mode_solo">单人</string>
+    <string name="history_mode_multi">多人</string>
+    <string name="history_mode_practice">练习</string>
+    <string name="history_difficulty_fmt">难度 %1$s</string>
+    <string name="history_moves_fmt">%1$d 手</string>
+    <string name="history_duration_fmt">时长 %1$s</string>
+
+    <!-- 关于 -->
+    <string name="about_title">关于</string>
+    <string name="about_version_fmt">版本 %1$s</string>
+    <string name="about_body">掌上五子棋是一款完全本地运行的方形智能手表五子棋应用：无需联网、无需登录、不收集任何数据，所有棋局与设置仅保存在手表本地。</string>
+    <string name="about_privacy">隐私说明：本应用不申请任何权限，不上传任何数据。</string>
+
+    <!-- 界面优化：文字大小 -->
+    <string name="settings_font_size">文字大小</string>
+    <string name="font_reset">恢复默认</string>
+    <string name="font_scale_fmt">%1$d%%</string>
+    <string name="cd_font_slider">文字大小滑块</string>
+    <!-- 棋盘缩放按钮收纳 -->
+    <string name="zoom_toggle_expand">展开缩放按钮</string>
+    <string name="zoom_toggle_collapse">收起缩放按钮</string>
+
+    <!-- 无障碍 -->
+    <string name="a11y_board_fmt">五子棋棋盘，第 %1$d 手，当前轮到%2$s</string>
+    <string name="a11y_stone_fmt">%1$s棋子，落子位置：第 %2$d 行第 %3$d 列</string>
+    <string name="a11y_stone_last_fmt">%1$s棋子，最后一步，位置：第 %2$d 行第 %3$d 列</string>
+    <string name="a11y_winning_line">获胜连线</string>
+</resources>
