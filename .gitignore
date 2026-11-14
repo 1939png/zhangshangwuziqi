@@ -1,0 +1,25 @@
+# Android / IntelliJ
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+
+# 用户本机与产物
+dist/
+*.log
+*.apk
+*.aab
+
+# 编辑器
+.vscode/
+*.swp
+
+# 其他
+.zwork/
